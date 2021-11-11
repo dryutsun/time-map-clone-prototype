@@ -2,7 +2,12 @@
 An implementation of the the timemap software developed by FA but in the PEN stack
 
 
-
+## Tech Stack
+- Postgres
+- Express.js
+- Node.js
+- Mapbox API
+- 
 
 
 
@@ -11,6 +16,8 @@ An implementation of the the timemap software developed by FA but in the PEN sta
 ## Wireframes
 ---
 ![time_map_page_render](assets/readme/map_page.jpg)
+![project_index](assets/readme/project_index.png)
+![events_index](assets/readme/event_index.png)
 
 
 
