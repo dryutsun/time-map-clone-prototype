@@ -3,11 +3,16 @@ An implementation of the the timemap software developed by FA but in the PEN sta
 
 
 ## Tech Stack
-- Postgres
+- Postgres 
 - Express.js
 - Node.js
 - Mapbox API
-- 
+- Axios
+- Sequelize
+- react-svg-timeline (would help mitigate the pains of doing this in CSS)
+- d3js
+
+
 
 
 
@@ -63,11 +68,16 @@ I would also use the APIS ability to dispaly information
 - [ ]  I would like some rudimentary time-related slider / timeline functionality.
 - [ ]  Ideally, I would like for the user to be able to click on the screen and get lat-lon data for data entry. This should be put into the form.
 
-"Project Routes":
-- Main Page Should be an Index of All User Projects
-- 
+## STRETCH GOALS
+- Possible translation of relational data into graph schema to render a force directed graph into canvas (to show the node to line relationship between events and entities? No fancy stuff, just want to see if it is possible. Will not require external API call.
+
+
+
+
 
 ## OBSTACLES
+- Unforseen errors in the data schema. Might I actually need a many to many relationship, have I built the linking table to achieve this?
+
 
 
 
